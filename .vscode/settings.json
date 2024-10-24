@@ -1,37 +1,14 @@
-<<<<<<< HEAD
-{
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "username": "root",
-            "database": "alx_book_store",
-            "name": "alx_book_store_connection",
-            "group": "MySQL Connections"
-        }
-    ]
-=======
-{
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "alx_book_store.sql",
-            "database": "alx_book_store",
-            "username": "root"
-        }
-    ]
->>>>>>> e487bc7d8880f2c7dd04bbc6b18b1606dc73c5bf
-}
+
+   "sqltools.connections": [
+       {
+           "mysqlOptions": {
+               "authProtocol": "default",
+               "enableSsl": "Disabled"
+           },
+           "previewLimit": 50,
+           "server": "localhost",
+           "port": 3306,
+           "driver": "MySQL",
+           "name": "alx_book_store.sql"
+       }
+   ]
