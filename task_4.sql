@@ -1,5 +1,6 @@
--- Select detailed column information from INFORMATION_SCHEMA for the books table
+-- Select detailed column information from INFORMATION_SCHEMA for the Books table
 SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_KEY, COLUMN_DEFAULT, EXTRA
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_SCHEMA = 'alx_book_store'
-AND TABLE_NAME = 'books';
+AND TABLE_NAME = 'Books';
+
